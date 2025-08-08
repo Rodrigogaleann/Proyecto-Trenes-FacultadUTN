@@ -18,12 +18,12 @@ class Estacion{
         const char *getNombreEstacion();
         bool getEstado();
 
-        /// METODOS "SET"
+        
         void setIDEstacion(int id);
         void setNombreEstacion(const char *nombreEstacion);
         void setEstado(bool estado);
 
-        /// METODOS GENERALES
+
         void cargar(int id = 0, char *dni = (char*)"NADA");
         void mostrar();
         std::string toCSV();
