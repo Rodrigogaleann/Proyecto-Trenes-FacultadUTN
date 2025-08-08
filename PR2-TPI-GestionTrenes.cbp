@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PR2-TPI-GestionTrenes" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PR2-TPI-GestionTrenes" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PR2-TPI-GestionTrenes" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Administrador.cpp" />
+		<Unit filename="Administrador.h" />
+		<Unit filename="ArchivoAdministradores.cpp" />
+		<Unit filename="ArchivoAdministradores.h" />
+		<Unit filename="ArchivoBoletos.cpp" />
+		<Unit filename="ArchivoBoletos.h" />
+		<Unit filename="ArchivoEstaciones.cpp" />
+		<Unit filename="ArchivoEstaciones.h" />
+		<Unit filename="ArchivoPasajeros.cpp" />
+		<Unit filename="ArchivoPasajeros.h" />
+		<Unit filename="ArchivoTarifas.cpp" />
+		<Unit filename="ArchivoTarifas.h" />
+		<Unit filename="ArchivoTrenes.cpp" />
+		<Unit filename="ArchivoTrenes.h" />
+		<Unit filename="Boleto.cpp" />
+		<Unit filename="Boleto.h" />
+		<Unit filename="Estacion.cpp" />
+		<Unit filename="Estacion.h" />
+		<Unit filename="FechaHoraSistema.cpp" />
+		<Unit filename="FechaHoraSistema.h" />
+		<Unit filename="FuncionesGlobales.cpp" />
+		<Unit filename="FuncionesGlobales.h" />
+		<Unit filename="ManagerAdministradores.cpp" />
+		<Unit filename="ManagerAdministradores.h" />
+		<Unit filename="ManagerBoletos.cpp" />
+		<Unit filename="ManagerBoletos.h" />
+		<Unit filename="ManagerConfiguraciones.cpp" />
+		<Unit filename="ManagerConfiguraciones.h" />
+		<Unit filename="ManagerEstaciones.cpp" />
+		<Unit filename="ManagerEstaciones.h" />
+		<Unit filename="ManagerPasajeros.cpp" />
+		<Unit filename="ManagerPasajeros.h" />
+		<Unit filename="ManagerTarifas.cpp" />
+		<Unit filename="ManagerTarifas.h" />
+		<Unit filename="ManagerTrenes.cpp" />
+		<Unit filename="ManagerTrenes.h" />
+		<Unit filename="MenuAdministrador.cpp" />
+		<Unit filename="MenuAdministrador.h" />
+		<Unit filename="MenuBoletos.cpp" />
+		<Unit filename="MenuBoletos.h" />
+		<Unit filename="MenuConfiguraciones.cpp" />
+		<Unit filename="MenuConfiguraciones.h" />
+		<Unit filename="MenuEstaciones.cpp" />
+		<Unit filename="MenuEstaciones.h" />
+		<Unit filename="MenuPasajeros.cpp" />
+		<Unit filename="MenuPasajeros.h" />
+		<Unit filename="MenuTarifas.cpp" />
+		<Unit filename="MenuTarifas.h" />
+		<Unit filename="MenuTrenes.cpp" />
+		<Unit filename="MenuTrenes.h" />
+		<Unit filename="MenuUsuario.cpp" />
+		<Unit filename="MenuUsuario.h" />
+		<Unit filename="Pasajero.cpp" />
+		<Unit filename="Pasajero.h" />
+		<Unit filename="Tarifa.cpp" />
+		<Unit filename="Tarifa.h" />
+		<Unit filename="Tren.cpp" />
+		<Unit filename="Tren.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
